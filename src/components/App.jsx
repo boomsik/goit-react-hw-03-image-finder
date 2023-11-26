@@ -28,9 +28,7 @@ export class App extends Component {
     }
 
     if (page >= totalPages && images !== prevState.images) {
-      Notify.warning(
-        "We're sorry, but you've reached the end of search results."
-      );
+      Notify.warning("We're sorry, but you reached the end of search results.");
     }
   }
 
